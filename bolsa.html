@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/topop.png" type="image/x-icon">   
+    <link rel="stylesheet" href="./css/bicicletas.css">
+    <title>Valucoin</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./img/Valucoin.png" alt="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="./educafin.html">Educação Financeira</a></li>
+                <li><a href="./bolsa.html">Bolsa de Valores</a></li>
+                <li><a href="./cripto.html">Criptomoedas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="introducao">
+            <h1>Bolsa de Valores</h1>
+            <h2>O que é<span>?</span></h2>
+        </div>
+    </main>
+
+    <section class="bolsa">
+        <div class="nimbus">
+            <div class="informacoes">
+                <h3>História</h3>
+                <h2>A história da bolsa de valores é um testemunho do desenvolvimento econômico e financeiro da humanidade. Desde os mercados rudimentares da antiguidade até as complexas transações digitais de hoje, as bolsas de valores evoluíram continuamente para atender às necessidades de um mundo em constante mudança. Compreender essa história nos ajuda a valorizar a importância dessas instituições na economia global (Pinheiro J., 2019).</h2>
+                <h2>A única bolsa de valores brasileira é a <b>B3</b> que tem sede principal em São Paulo. Existem bolsas de valores em quase todos os países, já no Brasil, até meados de 1960, eram 27 bolsas de valores em todo país, porém por conta da crise econômica de 1970, durante o governo militar, essas bolsas começaram a perder espaço  (B3., 2024).</h2>
+            </div>
+            <img src="./img/bolsavalue.png">
+        </div>
+        <div class="magic">
+            <img src="./img/etfcomo.png" alt="Bicicleta Magic Might" class="bike">
+            <div class="informacoes">
+                <h3>Exchange Traded Fund (ETF)</h3>
+                <h2>O <b>ETF</b> é um fundo de investimentos negociados que representa um índice do mercado. Isso quer dizer que se pode escolher investir numa rentabilidade muito próxima ao indicador que ele estiver atrelado. Ele permite que você invista sem precisar acompanhar o desempenho das empresas e seus títulos, sendo uma forma bastante vantajosa de se começar a investir (Souza, G. S., Penedo, A. S. T., Pereira, V. S., 2018).</h2>
+                <h2>As ETFs foram criadas por volta de 1980 nos Estados Unidos e ficaram muito famosas em
+                    diversos países. Estes fundos podem ser encontrados com as mais variadas classes de ativos para
+                    investimentos. Aqui no Brasil, ele foi lançado por volta do ano de 2002 e continua apresentando
+                    um mercado moderadamente pequeno, quando comparado ao de outros países (Leite V., 2020).</h2>
+                <div class="detalhes">
+                </div>
+            </div>
+        </div>
+        <div class="nebula">
+            <div class="informacoes">
+                <h3>Índice Ibovespa(IBOV)</h3>
+                <h2>É o principal índice da Bolsa brasileira. Criado em 1968 sendo o principal indicador de desempenho das ações que são negociadas na B3, ele se consolidou como referência para investidores no mundo todo (B3., 2024).</h2>
+                <div class="detalhes">
+                </div>
+            </div>
+            <img src="./img/ibovespaindice.png" class="bike">
+        </div>
+        <div class="magic">
+            <img src="./img/bova11.png" class="bike">
+            <div class="informacoes">
+                <h3>BOVA11</h3>
+                <h2>É o primeiro ETF de Ibovespa do Brasil, criado em 2008 e sem custo de administração
+                    e ele representa 80% do volume negociado da bolsa. Ao investir nele, você estará se tornando
+                    sócio das maiores empresas do Brasil, como Petrobras, Bradesco, etc (Toro, 2023).</h2>
+                <h2></h2>
+                <div class="detalhes">
+                </div>
+            </div>
+        </div>
+    <br>
+    <h2> Gráfico do BOVA11 </h2> 
+        <div class="tradingview-widget-container">
+            <div id="tradingview_bova11"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+                new TradingView.widget({
+                    "container_id": "tradingview_bova11",
+                    "autosize": false,
+                    "symbol": "BMFBOVESPA:BOVA11",
+                    "interval": "D",
+                    "timezone": "America/Sao_Paulo",
+                    "theme": "light",
+                    "style": "2",
+                    "locale": "br",
+                    "toolbar_bg": "#f1f3f6",
+                    "enable_publishing": false,
+                    "allow_symbol_change": true,
+                    "details": true,
+                    "hotlist": true,
+                    "calendar": true,
+                    "studies": [],
+                    "show_popup_button": true,
+                    "popup_width": "500",
+                    "popup_height": "650"
+                });
+            </script>
+        </div>
+    </br>
+        <div class="nimbus">
+            <div class="informacoes">
+                <h3>IFIX</h3>
+                <h2>O <b>IFIX</b> são fundos imobiliários. Criado em 2012 pela B3 e tem como objetivo ser o indicador de desempenho das cotações em fundos imobiliários, tendo um índice de retorno total no qual se busca refletir
+                variações nos preços que o integram (Warren, 2023). Antigamente nossos avós queriam investir em imovéis, terrenos mas não sabiam como, e atualmente eles podem investir através do IFIX.</h2>
+                <h2>A bolsa possui uma metodologia específica para incluir ou excluir FIIs (Fundos de
+                    Investimento Imobiliário) do IFIX, bem como ponderar o peso de cada fundo no cálculo geral.
+                    Em resumo, as cotas de FIIs incluídas no IFIX são aquelas com volume e valor consideráveis, a
+                    ponto de representarem uma parcela relevante do setor (B3, 2023).</h2>
+            </div>
+            <img src="./img/ifix.png">
+        </div>
+        <div class="nimbus">
+            <div class="informacoes">
+                <h3>Referências</h3>
+                <br>https://julianopinheiro.com/historia-da-bolsa-de-valores/ </br>
+                <p>https://www.b3.com.br/pt_br/noticias/numero-de-investidores-em-renda-fixa-alcanca-17-milhoes-de-pessoas-em-2023-na-b3 </p>
+                <p>https://www.escavador.com/sobre/4360508/antonio-sergio-torres-penedo</p>
+                <p>https://blog.nubank.com.br/o-que-e-etf-como-funciona/</p>
+                <p>https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/ibovespa.htm</p>
+                <p>https://blog.toroinvestimentos.com.br/bolsa/bolsa-de-valores-o-que-e-como-funciona</p>
+                <p>https://warren.com.br/magazine/ifix/</p>
+                <p>https://www.b3.com.br/pt_br/market-data-e-indices/indices/indices-de-segmentos-e-setoriais/indice-de-fundos-de-investimentos-imobiliarios-ifix.htm</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="./img/Valucoin.png" alt="logo">
+        <ul>
+            <li>CONTATO</li>
+            <li><a href="#">+55 77 99999-9999</a></li>
+            <li><a href="#">contato@valucoin.com</a></li>
+            <hr>
+            <li>IF Baiano - Campus Guanambi</li>
+            <li>Guanambi - BA</li>
+            <hr>
+            <div class="sociais">
+                <li><a href="#"><img src="./img/instagram.svg" alt="instagram"></a></li>
+                <li><a href="#"><img src="./img/facebook.svg" alt="facebook"></a></li>
+                <li><a href="#"><img src="./img/youtube.svg" alt="youtube"></a></li>
+            </div>
+        </ul>
+        <ul>
+            <li><a href="./educafin.html">Educação Financeira</a></li>
+            <li><a href="./bolsa.html">Bolsa de Valores</a></li>
+            <li><a href="./cripto.html">Criptomoedas</a></li>
+        </ul>
+        <p>Valucoin © Alguns direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/topop.png" type="image/x-icon">   
+    <link rel="stylesheet" href="./css/bicicletas.css">
+    <title>Valucoin</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./img/Valucoin.png" alt="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="./educafin.html">Educação Financeira</a></li>
+                <li><a href="./bolsa.html">Bolsa de Valores</a></li>
+                <li><a href="./cripto.html">Criptomoedas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="introducao">
+            <h1>Criptomoedas</h1>
+            <h2>O que é<span>?</span></h2>
+        </div>
+    </main>
+
+    <section class="bolsa">
+        <div class="nimbus">
+            <div class="informacoes">
+                <h3>História</h3>
+                <h2>As criptomoedas são moedas digitais. Elas foram criadas por volta do ano de 2007 e surgiu como um   sistema que não precisa de banco para fazer transações, tendo apenas dinheiro virtual. Essa inovação ficou conhecida como blockchain e nele cria-se, um índice global sobre todas as cotações que estão
+                acontecendo dentro do mercado (Infomoney, 2023).</h2>
+                <h2>Diversos estudos surgiram para analisar o comportamento desses ativos no mercado,
+                avaliando retorno e volatilidade dos preços. Tudo isso ocorreu por conta do imenso crescimento da
+                quantidade, volume e capitalização do mercado das criptomoedas ao redor do mundo tendo como principais moedas o Bitcoin e o Ethereum (Nordsearch, 2023).</h2>
+            </div>
+            <img src="./img/cripto.png">
+        </div>
+        <div class="magic">
+            <img src="./img/bitcoin.png" alt="" class="bike">
+            <div class="informacoes">
+                <h3>Bitcoin (BTC)</h3>
+                <p>É a maior criptomoeda conhecida. Essa criptomoeda surgiu no ano de 2007, criada por alguém com o pseudônimo de Satoshi Nakamoto, podendo ser apenas uma pessoa ou até mesmo um grupo de programadores e
+                ele tinha o intuito de facilitar as negociações pela internet e se tornou uma das criptomoedas mais
+                famosas atualmente, sendo diferente do dólar ou do real já que ele é apenas virtual (Schendes W., 2023).</p>
+                <h2>De acordo com uma pesquisa feita anualmente, o BTC no ano que surgiu valia por volta
+                    de US$ 0,39, por outro lado, recentemente foi registrado o maior índice de valor dessa moeda
+                    que foi de US$ 108.319,87 atingido em 17 de dezembro do ano de 2024 (Coinbase, 2024). O valor máximo do 
+                    Bitcoin pode ser alterado a qualquer momento. Consulte o valor atual clicando no botão abaixo.</h2>
+                <div class="detalhes">
+                    <a href="https://www.coinbase.com/pt-br/price/bitcoin">Valor atual</a>
+                </div>
+            </div>
+        </div>
+        <h2> Gráfico do Bitcoin </h2> 
+        <div class="tradingview-widget-container">
+            <div id="tradingview_abcde"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+                new TradingView.widget({
+                    "container_id": "tradingview_abcde",
+                    "autosize": false,
+                    "symbol": "BTCUSD",
+                    "interval": "D",
+                    "timezone": "Etc/UTC",
+                    "theme": "light",
+                    "style": "2",
+                    "locale": "br",
+                    "toolbar_bg": "#f1f3f6",
+                    "enable_publishing": false,
+                    "allow_symbol_change": true,
+                    "details": true,
+                    "hotlist": true,
+                    "calendar": true,
+                    "studies": [],
+                    "show_popup_button": true,
+                    "popup_width": "500",
+                    "popup_height": "650"
+                });
+            </script>
+        </div>
+        <br>
+        <div class="magic">
+            <img src="./img/ethereum.png" alt="" class="bike">
+            <div class="informacoes">
+                <h3>Ethereum (ETH)</h3>
+                <h2>É a segunda moeda digital mais conhecida, só perdendo para o Bitcoin. Diferente de sua concorrente, Bitcoin, o ETH é uma moeda digital que foi desenvolvida pelo programador russo Vitalik Buterin, no ano de 2014. E ela é utilizada para rodar os contratos inteligentes, serviços computacionais na rede e para pagar taxas aos mineradores, sendo ela menos escassa, assim permitindo aplicações mais complexas e é mais rápido que outras criptomoedas.</h2>
+                <h2>Essa criptomoeda teve seu menor valor sendo de US$ 0,42 em outubro de 2015 e seu maior valor foi registrado em novembro de 2021 com o valor de US$ 4.721,07 (Coinbase, 2024). O valor máximo do Ethereum pode ser alterado a qualquer momento. Consulte o valor atual clicando no botão abaixo.</h2>
+                <div class="detalhes">
+                    <a href="https://www.coinbase.com/pt-br/price/ethereum">Valor atual</a>
+                </div>
+            </div>
+        </div>
+    <br>
+    <h2> Gráfico do Ethereum </h2> 
+        <div class="tradingview-widget-container">
+            <div id="tradingview_eth"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+                new TradingView.widget({
+                    "container_id": "tradingview_eth",
+                    "autosize": false,
+                    "symbol": "ETHUSD",
+                    "interval": "D",
+                    "timezone": "Etc/UTC",
+                    "theme": "light",
+                    "style": "2",
+                    "locale": "br",
+                    "toolbar_bg": "#f1f3f6",
+                    "enable_publishing": false,
+                    "allow_symbol_change": true,
+                    "details": true,
+                    "hotlist": true,
+                    "calendar": true,
+                    "studies": [],
+                    "show_popup_button": true,
+                    "popup_width": "500",
+                    "popup_height": "650"
+                });
+            </script>
+        </div>
+    <br>
+        <div class="nimbus">
+            <div class="informacoes">
+                <h3>Referências</h3>
+                <p></p>
+                <br>https://www.infomoney.com.br/guias/blockchain/ </br>
+                <br>https://artigos.nordresearch.com.br/o-que-sao-criptomoedas/</br>
+                <br>https://olhardigital.com.br/2023/01/05/pro/bitcoin-faz-14-anos-conheca-a-historia-da-primeira-criptomoeda/</br>
+                <br>https://www.coinbase.com/pt-br/price/bitcoin</br>
+                <br>https://www.coinbase.com/pt-br/price/ethereum</br>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <img src="./img/Valucoin.png" alt="logo">
+        <ul>
+            <li>CONTATO</li>
+            <li><a href="#">+55 77 99999-9999</a></li>
+            <li><a href="#">contato@valucoin.com</a></li>
+            <hr>
+            <li>IF Baiano - Campus Guanambi</li>
+            <li>Guanambi - BA</li>
+            <hr>
+            <div class="sociais">
+                <li><a href="#"><img src="./img/instagram.svg" alt="instagram"></a></li>
+                <li><a href="#"><img src="./img/facebook.svg" alt="facebook"></a></li>
+                <li><a href="#"><img src="./img/youtube.svg" alt="youtube"></a></li>
+            </div>
+        </ul>
+        <ul>
+            <li></li>
+            <li><a href="./educafin.html">Educação Financeira</a></li>
+            <li><a href="./bolsa.html">Bolsa de Valores</a></li>
+            <li><a href="./cripto.html">Criptomoedas</a></li>
+        </ul>
+        <p>Valucoin © Alguns direitos reservados.</p>
+    </footer>
+</body>
+</html>
